@@ -1,3 +1,39 @@
 .overlay{
     filter: brightness(50%);
 }
+.top{
+    margin-left: 18%;
+    margin-right: 18%;
+    margin-bottom: 15%;
+}
+@media screen and (max-width: 576px) {
+    .test img{
+        height: 50%
+    }
+    .top{
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-bottom: 0%;
+    }
+    .top h1{
+        font-size: 100%;
+    }
+    .top p{
+        font-size: 55%;
+    }
+    .top button{
+        padding: 3px 6px;
+        font-size: 70%;
+    }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 576px) {
+    .com-add {
+        display: none;
+    }
+    .top{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 5%;
+    }
+}
